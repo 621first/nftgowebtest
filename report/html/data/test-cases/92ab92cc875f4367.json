@@ -1,0 +1,153 @@
+{
+  "uid" : "92ab92cc875f4367",
+  "name" : "test_search_coll[keyword0]",
+  "fullName" : "testcase.top_coll.test_coll.TestTopcoll#test_search_coll",
+  "historyId" : "295f6742e43e3ef381232ea94469cd51",
+  "time" : {
+    "start" : 1696674371469,
+    "stop" : 1696674381703,
+    "duration" : 10234
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1696674366544,
+      "stop" : 1696674366544,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1696674366544,
+      "stop" : 1696674367870,
+      "duration" : 1326
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1696674366544,
+      "stop" : 1696674366544,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1696674367870,
+      "stop" : 1696674367870,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1696674371468,
+      "stop" : 1696674371468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1696674381707,
+      "stop" : 1696674383942,
+      "duration" : 2235
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase.top_coll"
+  }, {
+    "name" : "suite",
+    "value" : "test_coll"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTopcoll"
+  }, {
+    "name" : "host",
+    "value" : "橙"
+  }, {
+    "name" : "thread",
+    "value" : "33440-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.top_coll.test_coll"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "keyword",
+    "value" : "{'keywords': ['bayc']}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92ab92cc875f4367.json",
+  "parameterValues" : [ "{'keywords': ['bayc']}" ]
+}

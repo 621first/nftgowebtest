@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.top_coll.test_coll",
+    "children" : [ {
+      "name" : "test_topcoll",
+      "uid" : "5d17afe31b1a9db5",
+      "parentUid" : "1a687ac51d4ca7263edaff34e1e388b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696674367872,
+        "stop" : 1696674371465,
+        "duration" : 3593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_search_coll[keyword0]",
+      "uid" : "92ab92cc875f4367",
+      "parentUid" : "1a687ac51d4ca7263edaff34e1e388b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696674371469,
+        "stop" : 1696674381703,
+        "duration" : 10234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'keywords': ['bayc']}" ]
+    } ],
+    "uid" : "testcase.top_coll.test_coll"
+  } ]
+}

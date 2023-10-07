@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase.top_coll",
+    "children" : [ {
+      "name" : "test_coll",
+      "children" : [ {
+        "name" : "TestTopcoll",
+        "children" : [ {
+          "name" : "test_topcoll",
+          "uid" : "5d17afe31b1a9db5",
+          "parentUid" : "65f5e12c91359edf722ed91587b5f084",
+          "status" : "passed",
+          "time" : {
+            "start" : 1696674367872,
+            "stop" : 1696674371465,
+            "duration" : 3593
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_search_coll[keyword0]",
+          "uid" : "92ab92cc875f4367",
+          "parentUid" : "65f5e12c91359edf722ed91587b5f084",
+          "status" : "passed",
+          "time" : {
+            "start" : 1696674371469,
+            "stop" : 1696674381703,
+            "duration" : 10234
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'keywords': ['bayc']}" ]
+        } ],
+        "uid" : "65f5e12c91359edf722ed91587b5f084"
+      } ],
+      "uid" : "1d98ac6746318323c9dc8381134f6541"
+    } ],
+    "uid" : "5e66f167b2616b79fb03fed009a6147a"
+  } ]
+}

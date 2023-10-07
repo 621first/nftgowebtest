@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "橙",
+    "children" : [ {
+      "name" : "33440-MainThread",
+      "children" : [ {
+        "name" : "test_topcoll",
+        "uid" : "5d17afe31b1a9db5",
+        "parentUid" : "6654ef72f37c9c00dcab48dd76868bd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696674367872,
+          "stop" : 1696674371465,
+          "duration" : 3593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_coll[keyword0]",
+        "uid" : "92ab92cc875f4367",
+        "parentUid" : "6654ef72f37c9c00dcab48dd76868bd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1696674371469,
+          "stop" : 1696674381703,
+          "duration" : 10234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'keywords': ['bayc']}" ]
+      } ],
+      "uid" : "6654ef72f37c9c00dcab48dd76868bd9"
+    } ],
+    "uid" : "9d2a20195422092433b8710b3e43f479"
+  } ]
+}

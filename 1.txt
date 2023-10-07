@@ -1,0 +1,24 @@
+Web UI自动化测试过程中常用的断言策略有以下几种：
+    流程成功执行视为通过：按确定的元素操作步骤，可以正常完成整个流程视为通过；
+    通过标题断言：通过当前网页标题driver.title来判断处于某一页面上；
+    通过URL断言：通过当前URL，driver.current_url来判断处于某一页面上；
+    通过页面源码断言：通过网页源代码driver.page_source中包含特定信息来判断处于某一页面上；
+    通过存在特定元素断言：通过存在某个特定元素来判断处于某一页面上。
+        from selenium import webdriver
+        from selenium.common.exceptions import NoSuchElementException
+
+        def test_open_baidu():
+            driver = webdriver.Chrome()
+            driver.get("https://www.baidu.com")
+            try:
+                driver.find_element_by_id('kw')  # 尝试定位搜索框
+            except NoSuchElementException:
+                pytest.fail('不存在搜索框')
+
+
+Pytest框架的优点之一是，拥有很多功能丰富的插件。使用这些插件可以省略我们自己编写Fixture方法的过程，直接安装使用。
+上例中我们自己编写了一个名为driver的fixture方法，我们也可以直接使用Pytest-Selenium插件，该插件提供了一个全局的driver（或selenium）Fixture方法，可以直接使用，并且支持切换使用的浏览器
+pytest-selenium还支持配置浏览器选项及配合pytest-html失败自动截图等功能，详细可以参考其官方使用文档https://pytest-selenium.readthedocs.io/en/latest/。
+注：pytest-selenium默认会拦截所有接口请求，可以在pytest.ini中配置sensitive_url = ''来设置无敏感url。
+
+
