@@ -1,0 +1,25 @@
+login:
+  - action: click
+    by: xpath
+    locator: //button[text()="Connect Your Wallet"]
+
+  - action: click
+    by: xpath
+    locator: //div[@id="nftgo-login-btn-metaMask"]
+
+search_coll:
+  - action: send_keys
+    by: xpath
+    locator: //input[@class="search-input_searchInput__hmtqI"]
+    keyword: bayc
+
+open_topcoll:
+  - action: click
+    by: xpath
+    locator: //span[@class="sc-bczRLJ sc-gsnTZi fNQVyA fuKjun pop-up-modal_closeIcon__Jst7n"]
+
+
+hover_marketCap:
+  - action: hover
+    by: xpath
+    locator: //div/span[@class="sc-bczRLJ sc-gsnTZi fNQVyA iCmxCl"]

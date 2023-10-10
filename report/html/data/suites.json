@@ -1,21 +1,20 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
-    "name" : "testcase.top_coll",
+    "name" : "testcase.main",
     "children" : [ {
-      "name" : "test_coll",
+      "name" : "test_main",
       "children" : [ {
-        "name" : "TestTopcoll",
+        "name" : "TestMain",
         "children" : [ {
-          "name" : "test_topcoll",
-          "uid" : "5d17afe31b1a9db5",
-          "parentUid" : "65f5e12c91359edf722ed91587b5f084",
+          "name" : "test_login",
+          "uid" : "359d5df67b56be35",
+          "parentUid" : "01085f25212ad39b708f6912f0ab7c82",
           "status" : "passed",
           "time" : {
-            "start" : 1696674367872,
-            "stop" : 1696674371465,
-            "duration" : 3593
+            "start" : 1696931124556,
+            "stop" : 1696931138240,
+            "duration" : 13684
           },
           "flaky" : false,
           "newFailed" : false,
@@ -24,28 +23,12 @@
           "retriesCount" : 0,
           "retriesStatusChange" : false,
           "parameters" : [ ]
-        }, {
-          "name" : "test_search_coll[keyword0]",
-          "uid" : "92ab92cc875f4367",
-          "parentUid" : "65f5e12c91359edf722ed91587b5f084",
-          "status" : "passed",
-          "time" : {
-            "start" : 1696674371469,
-            "stop" : 1696674381703,
-            "duration" : 10234
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ "{'keywords': ['bayc']}" ]
         } ],
-        "uid" : "65f5e12c91359edf722ed91587b5f084"
+        "uid" : "01085f25212ad39b708f6912f0ab7c82"
       } ],
-      "uid" : "1d98ac6746318323c9dc8381134f6541"
+      "uid" : "a3d0ab83262434febd09b6ed6b70f774"
     } ],
-    "uid" : "5e66f167b2616b79fb03fed009a6147a"
-  } ]
+    "uid" : "3912839b54c9584b84e0ed6e9028a5b2"
+  } ],
+  "name" : "suites"
 }

@@ -1,15 +1,14 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
-    "name" : "test_topcoll",
-    "uid" : "5d17afe31b1a9db5",
+    "name" : "test_login",
+    "uid" : "359d5df67b56be35",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1696674367872,
-      "stop" : 1696674371465,
-      "duration" : 3593
+      "start" : 1696931124556,
+      "stop" : 1696931138240,
+      "duration" : 13684
     },
     "flaky" : false,
     "newFailed" : false,
@@ -18,22 +17,6 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
-  }, {
-    "name" : "test_search_coll[keyword0]",
-    "uid" : "92ab92cc875f4367",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1696674371469,
-      "stop" : 1696674381703,
-      "duration" : 10234
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "{'keywords': ['bayc']}" ]
-  } ]
+  } ],
+  "name" : "behaviors"
 }

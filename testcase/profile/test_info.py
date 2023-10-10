@@ -3,7 +3,7 @@
 @time: 2023/9/20 13:49
 '''
 
-from page.homePage import ProfilePage
+from page_object.homePage import ProfilePage
 
 
 class TestProfile():

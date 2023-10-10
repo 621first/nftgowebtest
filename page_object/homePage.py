@@ -3,7 +3,7 @@
 @time: 2023/9/20 11:50
 '''
 from selenium.webdriver.common.by import By
-from page.basePage import BasePage
+from page_object.basePage import BasePage
 
 
 from selenium import webdriver
@@ -18,6 +18,6 @@ class ProfilePage(BasePage):
 		print("portfolio_value:",self.portfolio_value.text)
 
 	def open_offers(self):
-		self.find_element(self.driver,By.XPATH,"//span[@class='page-tab_text__i9_Uf' and text()='Offers']").click()
+		self.find_element(self.driver,By.XPATH,"//span[@class='page_object-tab_text__i9_Uf' and text()='Offers']").click()
 		print("11111111open_offers")
 
